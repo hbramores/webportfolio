@@ -856,6 +856,50 @@ a {
   }
 }
 
+/* Mid desktop fix: 994px to 1190px */
+@media (min-width: 992px) and (max-width: 1190px) {
+  #projects .container {
+    max-width: 960px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 22px 20px;
+    gap: 16px;
+    min-height: 100%;
+  }
+
+  .card-content {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .card-content h2 {
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+
+  .card-content p {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .card-image img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .project-btn {
+    align-self: center;
+    width: 100%;
+    max-width: 180px;
+  }
+}
+
 /* Small mobile */
 @media (max-width: 575.98px) {
   .navbar {
