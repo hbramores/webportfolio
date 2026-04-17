@@ -856,7 +856,7 @@ a {
   }
 }
 
-/* Mid desktop fix: 994px to 1190px */
+/* Mid desktop */
 @media (min-width: 992px) and (max-width: 1190px) {
   #projects .container {
     max-width: 960px;
